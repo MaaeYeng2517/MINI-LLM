@@ -1,0 +1,49 @@
+{
+  "models": [
+    {
+      "model_id": "default",
+      "epochs": 10,
+      "final_train_loss": 0.08284703288850088,
+      "final_val_loss": 3.693753714608674,
+      "final_perplexity": 40.19544636106998,
+      "vocab_size": 79,
+      "seq_len": 128,
+      "params": null,
+      "checkpoint": "/Users/maaeyeng/mini-llm/thai_mini/checkpoints/default.pt"
+    },
+    {
+      "model_id": "thai-demo",
+      "epochs": 3,
+      "final_train_loss": 1.3159630472001644,
+      "final_val_loss": 3.0293185234069826,
+      "final_perplexity": 20.68313271475254,
+      "vocab_size": 79,
+      "seq_len": 64,
+      "params": null,
+      "checkpoint": "/Users/maaeyeng/mini-llm/thai_mini/checkpoints/thai-demo.pt"
+    },
+    {
+      "model_id": "thai-v1-opto",
+      "epochs": 2,
+      "final_train_loss": 3.1267040169757347,
+      "final_val_loss": 3.0362098296483357,
+      "final_perplexity": 20.82615876846238,
+      "vocab_size": 72,
+      "seq_len": 48,
+      "params": null,
+      "checkpoint": "/Users/maaeyeng/mini-llm/thai_mini/checkpoints/thai-v1-opto.pt"
+    },
+    {
+      "model_id": "thai_mini_pt",
+      "epochs": 5,
+      "final_train_loss": 0.8750368117565562,
+      "final_val_loss": 2.765794081890837,
+      "final_perplexity": 15.891654256431416,
+      "vocab_size": 79,
+      "seq_len": 64,
+      "params": null,
+      "checkpoint": "/Users/maaeyeng/mini-llm/thai_mini/checkpoints/thai_mini_pt.pt"
+    }
+  ],
+  "generated_at": "2026-11-09T15:45:38.281480"
+}

@@ -1,0 +1,59 @@
+{
+  "version": "v1.0",
+  "active": "default",
+  "models": [
+    {
+      "id": "default",
+      "name": "Default Mini-LLM",
+      "backend": "browser",
+      "datasetDir": "/data/models/default",
+      "train": "/data/models/default/train.json",
+      "test": "/data/models/default/test.json",
+      "val": "/data/models/default/val.json",
+      "checkpoint": "mini-llm-v1.0-th3/default"
+    },
+    {
+      "id": "thai-demo",
+      "name": "Thai Demo",
+      "backend": "browser",
+      "datasetDir": "/data/models/thai-demo",
+      "train": "/data/models/thai-demo/train.json",
+      "test": "/data/models/thai-demo/test.json",
+      "val": "/data/models/thai-demo/val.json",
+      "checkpoint": "mini-llm-v1.0-th3/thai-demo"
+    },
+    {
+      "id": "thai-v1-opto",
+      "name": "Thai v1 Opto",
+      "backend": "browser",
+      "datasetDir": "/data/models/thai-v1-opto",
+      "train": "/data/models/thai-v1-opto/train.json",
+      "test": "/data/models/thai-v1-opto/test.json",
+      "val": "/data/models/thai-v1-opto/val.json",
+      "checkpoint": "mini-llm-v1.0-th3/thai-v1-opto"
+    },
+    {
+      "id": "thai_mini_pt",
+      "name": "Thai Mini Transformer (PyTorch)",
+      "backend": "pytorch",
+      "datasetDir": "public/data/models/thai_mini_pt",
+      "train": "public/data/models/thai_mini_pt/train.json",
+      "test": "public/data/models/thai_mini_pt/test.json",
+      "val": "public/data/models/thai_mini_pt/val.json",
+      "checkpoint": "thai_mini/checkpoints/mini_transformer.pt"
+    },
+    {
+      "id": "plant_disease",
+      "name": "Plant Disease Classifier",
+      "backend": "pytorch",
+      "datasetDir": "plant_disease_classifier/data",
+      "train": "plant_disease_classifier/data/train",
+      "test": "plant_disease_classifier/data/test",
+      "val": "plant_disease_classifier/data/val",
+      "checkpoint": "plant_disease_classifier/checkpoints/best_model.pt",
+      "config": "plant_disease_classifier/configs/config.yaml",
+      "classes": "plant_disease_classifier/checkpoints/classes.json",
+      "description": "Plant disease classification (PlantVillage 38 classes) using transfer learning"
+    }
+  ]
+}
